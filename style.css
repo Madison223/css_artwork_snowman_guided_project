@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.sun {
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  float: right;
+  border-radius: 50%;
+}
+.canvas {
+  background-color: lightgray;
+  height: 200px;
+  width: auto;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 850px;
+  bottom: 0;
+}
+
+.face {
+  background-color: white;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  float: none;
+  position: relative;
+  top: 260px;
+  left: 800px;
+}
+
+.eye1,
+.eye2 {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.eye1 {
+  left: 850px;
+  top: 160px;
+}
+
+.eye2 {
+  left: 900px;
+  top: 145px;
+}
+
+.nose {
+  border-left: 25px solid orange;
+  border-top: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  height: 0;
+  width: 0;
+  position: relative;
+  left: 880px;
+  top: 160px;
+}
+
+.hat {
+  background-color: gray;
+  height: 9px;
+  width: 145px;
+  position: relative;
+  left: 810px;
+  top: 65px;
+}
+
+.top {
+  background-color: gray;
+  height: 75px;
+  width: 95px;
+  position: relative;
+  left: 835px;
+  top: -15px;
+}
+
+.body {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 780px;
+  top: 112px;
+}
+
+.bottom {
+  background-color: white;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  position: relative;
+  left: 760px;
+  top: 58px;
+}
+
+.button1 {
+  background-color: gray;
+  height: 15px;
+  width: 12px;
+  float: inherit;
+  position: relative;
+  border-radius: 50%;
+  left: 875px;
+  bottom: 40px;
+}
+
+.button2 {
+  background-color: gray;
+  height: 15px;
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  left: 875px;
+  bottom: 20px;
+}
